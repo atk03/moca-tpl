@@ -47,6 +47,6 @@ function mocaGetData(containerId) {
             }
         }).event;
     };
-    consol.log(window.dataTagData);
+    console.log(window.dataTagData);
     return window.dataTagData
 }
