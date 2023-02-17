@@ -39,7 +39,7 @@ function mocaGetData(containerId) {
             split: function() {
                 return []
             }
-        }).event;
+        }).event
     };
     console.log(window.dataTagData);
     return window.dataTagData
