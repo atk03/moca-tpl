@@ -20,6 +20,7 @@ function mocaSendData(data, endpoint) {
         if (xhr.status.toString()[0] !== "2") {
             console.error(xhr.status + "> " + xhr.statusText)
         }
+    }
 }
 
 
