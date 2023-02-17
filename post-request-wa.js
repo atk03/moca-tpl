@@ -7,6 +7,7 @@ function parseResponse(str) {
         }
     }
 }
+    console.log('njk');
 
 function mocaSendData(data, endpoint) {
     console.log('jf');
