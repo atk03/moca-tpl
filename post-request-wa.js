@@ -19,14 +19,6 @@ function mocaSendData(data, endpoint, dlEvent, dlVar) {
         if (xhr.status.toString()[0] !== "2") {
             console.error(xhr.status + "> " + xhr.statusText)
         }
-        if (dlEvent && dlVar) {
-            window[dlVar] = window[dlVar] || [];
-            var dlAllData = parseResponse(xhr.responseText);
-            dlAllData.event = dlEvent;
-            dlAllData.status = xhr.status;
-            window[dlVar].push(dlAllData)
-        }
-    }
 }
 
 
