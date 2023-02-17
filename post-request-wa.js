@@ -33,7 +33,7 @@ function mocaSendData(data, endpoint, dlEvent, dlVar) {
 function mocaGetData(containerId) {
     window.dataTagData = {
         document: {
-            characterSet: window.document.characterSet
+            characterSet: 'UTF-8'
         },
         innerWidth: window.innerWidth,
         innerHeight: window.innerHeight,
@@ -45,7 +45,7 @@ function mocaGetData(containerId) {
             split: function() {
                 return []
             }
-        })
+        }).event;
     };
     return window.dataTagData
 }
