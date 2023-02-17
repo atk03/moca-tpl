@@ -8,7 +8,7 @@ function parseResponse(str) {
     }
 }
 
-function mocaSendData(data, endpoint, dlEvent, dlVar) {
+function mocaSendData(data, endpoint) {
     var xhr = new XMLHttpRequest;
     var stringifiedData = JSON.stringify(data);
     xhr.open("POST", endpoint);
