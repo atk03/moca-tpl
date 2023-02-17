@@ -25,6 +25,8 @@ function mocaSendData(data, endpoint) {
 
 
 function mocaGetData(containerId) {
+        console.log('njk');
+
     window.dataTagData = {
         document: {
             characterSet: 'UTF-8'
